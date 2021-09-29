@@ -1,0 +1,17 @@
+.divider {
+    width: 60px;
+    height: 0px;
+    border: 3px solid $main-color;
+
+    &__resume {
+        margin: 25px auto 0 auto;
+    }
+
+    &__skills {
+        margin: 25px auto 0 auto;
+    }
+
+    &__portfolio {
+        margin: 25px auto 0 auto;
+    }
+}

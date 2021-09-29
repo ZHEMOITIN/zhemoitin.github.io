@@ -1,0 +1,64 @@
+.title {
+    color: #000000;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 60px;
+
+    &__about {
+        font-size: 36px;
+    }
+
+    &__about-skill {
+        font-weight: bold;
+        font-size: 16px;
+        line-height: 21px;
+    }
+
+    &__resume {
+        font-size: 36px;
+        text-align: center;
+    }
+
+    &__resume-education {
+        position: relative;
+        font-weight: bold;
+        font-size: 20px;
+        line-height: 30px;
+        padding-left: 35px;
+
+        &:before {
+            content: '';
+            position: absolute;
+            width: 15px;
+            height: 15px;
+            background: $main-color;
+            border-radius: 100%;
+            left: 0;
+            top: 50%;
+            transform: translateY(-50%);
+
+        }
+    }
+
+    &__fz14 {
+        font-weight: bold;
+        font-size: 15px;
+        line-height: 21px;
+    }
+
+    &__skills {
+        font-weight: bold;
+        font-size: 36px;
+        line-height: 60px;
+        text-align: center;
+
+    }
+
+    &__portfolio {
+        font-weight: bold;
+        font-size: 36px;
+        line-height: 60px;
+        text-align: center;
+    }
+
+}
