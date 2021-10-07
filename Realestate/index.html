@@ -1,0 +1,411 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>НЕДВИЖИМОСТЬ</title>
+    <meta name="title" content="Недвижимость">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.min.css">
+</head>
+
+<body>
+    <header class="header">
+        <div class="container">
+            <nav class="nav">
+                <div class="logo">
+                    <img class="logo__img" src="img/RealAgent_logo.svg" alt="logo">
+                </div>
+                <div class="menu">
+                    <ul class="menu__list">
+                        <li class="list-item"><a href="#" class="link">Главная</a></li>
+                        <li class="list-item"><a href="#" class="link">О нас</a></li>
+                        <li class="list-item"><a href="#" class="link">Услуги</a></li>
+                        <li class="list-item"><a href="#" class="link">Портфолио</a></li>
+                        <li class="list-item"><a href="#" class="link">Блог</a></li>
+                        <li class="list-item"><a href="#" class="link">Контакты</a></li>
+                    </ul>
+                </div>
+                <button class="nav__button" href="#">Войти</button>
+            </nav>
+            <div class="header__wrapper-content">
+                <div class="content">
+                    <div class="subtitle">НЕДВИЖИМОСТЬ</div>
+                    <h1 class="title">Ваш агент по недвижимости на всю жизнь</h1>
+                    <p class="descr">Поскольку рынок наводнен множеством компаний, для вашего бизнеса стало очень
+                        важно иметь броский слоган, который будет рассказывать людям, чем вы занимаетесь.</p>
+                </div>
+            </div>
+            <div class="header__wrapper-input">
+                <div class="list-type">
+                    <div class="list-type__title">Локация</div>
+                    <select id="locationList">
+                        <option value="017">Минск, 13900</option>
+                        <option value="018">Минск, 13910</option>
+                        <option value="019">Минск, 13920</option>
+                        <option value="019">Минск, 13930</option>
+                    </select>
+                </div>
+
+                <div class="divider"></div>
+
+                <div class="list-type">
+                    <div class="list-type__title">Тип новостройки</div>
+                    <select id="houseList">
+                        <option value="017">Монолитно-кирпичный</option>
+                        <option value="018">Панельный</option>
+                        <option value="019">Каркасно-блочный</option>
+                        <option value="019">Кирпичный</option>
+                    </select>
+                </div>
+
+                <div class="divider"></div>
+
+                <div class="list-type">
+                    <div class="list-type__title">Цена за м/2</div>
+                    <select id="priceList">
+                        <option value="017">$ 800-1300</option>
+                        <option value="018">$ 1300-1800</option>
+                        <option value="019">$ 1800-2300</option>
+                        <option value="019">$ 2800-более 3000 </option>
+                    </select>
+                </div>
+                <button class="input-search"><img src="icons/search.svg" alt="search" class="button-img"></button>
+            </div>
+        </div>
+    </header>
+
+    <section class="about">
+        <div class="container">
+            <div class="about__wrapper">
+                <div class="content">
+                    <h2 class="content__title">Не покупайте у меня, если вы<br> не готовы к успеху</h2>
+                    <p class="content__descr">Поскольку рынок наводнен большим количеством предприятий, это стало очень
+                        важным для вашего бизнеса</p>
+                    <a href="" class="content__button">Подробнее</a>
+                </div>
+                <div class="photo">
+                    <img class="img" src="img/room.jpg" alt="room">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="product">
+        <div class="container">
+            <div class="product__header">
+                <h2 class="product__title">Прошлые результаты -<br>залог будущего успеха</h2>
+                <div class="product__menu">
+                    <ul class="list">
+                        <li class="list__item"><a class="link_active" href="#">Дома</a></li>
+                        <li class="list__item"><a class="link" href="#">Квартиры</a></li>
+                        <li class="list__item"><a class="link" href="#">Участки</a></li>
+                        <li class="list__item"><a class="link" href="#">Показать все</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="product__wrapper">
+                <div class="card">
+                    <div class="card__photo">
+                        <img class="img-product" src="img/item_2.jpg" alt="">
+                    </div>
+                    <div class="card__content">
+                        <div class="description">
+                            <div class="description__title">Каретный дом</div>
+                            <div class="description__price">$1500</div>
+                            <div class="description__rooms">
+                                <div class="room">
+                                    <div class="icon">
+                                        <img class="icon-room" src="icons/card/bed.png" alt="badroom">
+                                    </div>
+                                    <div class="number">4</div>
+                                </div>
+                                <div class="room">
+                                    <div class="icon">
+                                        <img class="icon-room" src="icons/card/kitten.png" alt="kitten">
+                                    </div>
+                                    <div class="number">3</div>
+                                </div>
+                                <div class="room">
+                                    <div class="icon">
+                                        <img class="icon-room" src="icons/card/parking.png" alt="parking">
+                                    </div>
+                                    <div class="number">1</div>
+                                </div>
+                            </div>
+                            <div class="description__location">
+                                <div class="marker">
+                                    <img class="img-market" src="icons/card/marker.png" alt="market">
+                                </div>
+                                <div class="adress">Минск-Центральный,13900</div>
+                            </div>
+                        </div>
+                        <button class="button-card">В корзину</button>
+                    </div>
+                </div>
+
+
+                <div class="card">
+                    <div class="card__photo">
+                        <img class="img-product" src="img/item_3.jpg" alt="">
+                    </div>
+                    <div class="card__content">
+                        <div class="description">
+                            <div class="description__title">Каретный дом</div>
+                            <div class="description__price">$1500</div>
+                            <div class="description__rooms">
+                                <div class="room">
+                                    <div class="icon">
+                                        <img class="icon-room" src="icons/card/bed.png" alt="badroom">
+                                    </div>
+                                    <div class="number">4</div>
+                                </div>
+                                <div class="room">
+                                    <div class="icon">
+                                        <img class="icon-room" src="icons/card/kitten.png" alt="kitten">
+                                    </div>
+                                    <div class="number">3</div>
+                                </div>
+                                <div class="room">
+                                    <div class="icon">
+                                        <img class="icon-room" src="icons/card/parking.png" alt="parking">
+                                    </div>
+                                    <div class="number">1</div>
+                                </div>
+                            </div>
+                            <div class="description__location">
+                                <div class="marker">
+                                    <img class="img-market" src="icons/card/marker.png" alt="market">
+                                </div>
+                                <div class="adress">Минск-Центральный,13900</div>
+                            </div>
+                        </div>
+                        <button class="button-card">В корзину</button>
+                    </div>
+                </div>
+
+
+                <div class="card">
+                    <div class="card__photo">
+                        <img class="img-product" src="img/item_4.jpg" alt="">
+                    </div>
+                    <div class="card__content">
+                        <div class="description">
+                            <div class="description__title">Каретный дом</div>
+                            <div class="description__price">$1500</div>
+                            <div class="description__rooms">
+                                <div class="room">
+                                    <div class="icon">
+                                        <img class="icon-room" src="icons/card/bed.png" alt="badroom">
+                                    </div>
+                                    <div class="number">4</div>
+                                </div>
+                                <div class="room">
+                                    <div class="icon">
+                                        <img class="icon-room" src="icons/card/kitten.png" alt="kitten">
+                                    </div>
+                                    <div class="number">3</div>
+                                </div>
+                                <div class="room">
+                                    <div class="icon">
+                                        <img class="icon-room" src="icons/card/parking.png" alt="parking">
+                                    </div>
+                                    <div class="number">1</div>
+                                </div>
+                            </div>
+                            <div class="description__location">
+                                <div class="marker">
+                                    <img class="img-market" src="icons/card/marker.png" alt="market">
+                                </div>
+                                <div class="adress">Минск-Центральный,13900</div>
+                            </div>
+                        </div>
+                        <button class="button-card">В корзину</button>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="card__photo">
+                        <img class="img-product" src="img/item_5.jpg" alt="">
+                    </div>
+                    <div class="card__content">
+                        <div class="description">
+                            <div class="description__title">Каретный дом</div>
+                            <div class="description__price">$1500</div>
+                            <div class="description__rooms">
+                                <div class="room">
+                                    <div class="icon">
+                                        <img class="icon-room" src="icons/card/bed.png" alt="badroom">
+                                    </div>
+                                    <div class="number">4</div>
+                                </div>
+                                <div class="room">
+                                    <div class="icon">
+                                        <img class="icon-room" src="icons/card/kitten.png" alt="kitten">
+                                    </div>
+                                    <div class="number">3</div>
+                                </div>
+                                <div class="room">
+                                    <div class="icon">
+                                        <img class="icon-room" src="icons/card/parking.png" alt="parking">
+                                    </div>
+                                    <div class="number">1</div>
+                                </div>
+                            </div>
+                            <div class="description__location">
+                                <div class="marker">
+                                    <img class="img-market" src="icons/card/marker.png" alt="market">
+                                </div>
+                                <div class="adress">Минск-Центральный,13900</div>
+                            </div>
+                        </div>
+                        <button class="button-card">В корзину</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="gallary">
+        <div class="container">
+            <h2 class="gallary__title">Приходите со своей мечтой, об остальном позаботимся мы</h2>
+            <p class="gallary__descr">Поскольку рынок наводнен большим количеством предприятий, качество для нас главный
+                критерий</p>
+            <div class="gallary__wrapper">
+                <div class="photo">
+                    <div class="photo__one">
+                        <img class="one" src="img/item_6.jpg" alt="room-one">
+                    </div>
+                    <div class="photo__two">
+                        <img class="two" src="img/item_7.jpg" alt="room-two">
+                    </div>
+                    <div class="photo__three">
+                        <img class="three" src="img/item_8.jpg" alt="room-three">
+                    </div>
+                    <div class="photo__four">
+                        <img class="four" src="img/item_9.jpg" alt="room-four">
+                    </div>
+                    <div class="photo__five">
+                        <img class="five" src="img/item_10.jpg" alt="room-five">
+                    </div>
+                    <div class="photo__six">
+                        <img class="six" src="img/item_8.jpg" alt="room-five">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="comments">
+        <div class="container">
+            <div class="comments__wrapper">
+                <div class="photo">
+                    <img class="comment-img" src="img/item_11.jpg" alt="photo">
+                </div>
+                <div class="content">
+                    <div class="content__rating">
+                        <img class="rating-img" src="icons/stars.svg" alt="raiting">
+                    </div>
+                    <div class="content__descr">
+                        <p class="descr">Поскольку рынок наводнен большим количеством предприятий, это стало очень
+                            важным для вашего бизнеса.</p>
+                    </div>
+                    <div class="content__personal">
+                        <div class="avatar">
+                            <img class="avatar__photo" src="icons/avatar.png" alt="avatar">
+                        </div>
+                        <div class="location">
+                            <div class="location__name">Моника М. Шарп</div>
+                            <div class="location__street">Риттер-авеню</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="questions">
+        <div class="container">
+            <h2 class="questions__title">Частые вопросы при покупке или<br>продаже вашей недвижимости</h2>
+            <div class="questions__wrapper">
+                <div class="photo">
+                    <img class="photo-questions" src="img/item_12.jpg" alt="questions">
+                </div>
+                <div class="content">
+                    <div class="content__item">
+                        <div class="title">Как быстро продавец сможет ответить на мое предложение?</div>
+                        <div class="button-add"><img class="plus" src="icons/plus.svg" alt="plus"></div>
+                    </div>
+                    <div class="content__item">
+                        <div class="title">Какой первый шаг в процессе покупки дома?</div>
+                        <div class="button-add"><img class="plus" src="icons/plus.svg" alt="plus"></div>
+                    </div>
+                    <div class="content__item">
+                        <div class="title">Сколько я должен заплатить агенту, чтобы он помог мне купить дом?</div>
+                        <div class="button-add"><img class="plus" src="icons/plus.svg" alt="plus"></div>
+                    </div>
+                    <div class="content__item">
+                        <div class="title">Может ли продавец увеличить цену на недвижимость во время переговоров?</div>
+                        <div class="button-add"><img class="plus" src="icons/plus.svg" alt="plus"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__mail">
+                <div class="title">Подписаться на новости</div>
+                <p class="descr">Подпишись и получай самые актуальные<br>новости в сфере недвижимости</p>
+                <form class="email" action="#">
+                    <input class="e-mail" type="email" name="email" required placeholder="Введите e-mail">
+                    <input class="btn" type="submit" name="submit" value="Подписаться">
+                </form>
+            </div>
+            <div class="footer__wrapper">
+                <div class="address">
+                    <div class="title">ITO</div>
+                    <div class="address__location">Минск, п-р Независимости, 167/2А</div>
+                    <a href="#" class="address__mail">itobd@gmail.com</a>
+                </div>
+                <div class="service">
+                    <div class="title">Услуги</div>
+                    <ul>
+                        <li><a href="#">Квартиры</a></li>
+                        <li><a href="#">Дома</a></li>
+                        <li><a href="#">Участки</a></li>
+                    </ul>
+                </div>
+                <div class="сompany">
+                    <div class="title">Компания</div>
+                    <ul>
+                        <li><a href="#">О нас</a></li>
+                        <li><a href="#">Блог</a></li>
+                        <li><a href="#">Контакты</a></li>
+                    </ul>
+                </div>
+                <div class="social">
+                    <div class="title">Социальные сети</div>
+                    <ul>
+                        <li><a href="#">Facebook</a></li>
+                        <li><a href="#">Twitter</a></li>
+                        <li><a href="#">Instagram</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4"
+        crossorigin="anonymous"></script>
+    <script src="js/script.js"></script>
+</body>
+
+</html>
